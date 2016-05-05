@@ -1,3 +1,3 @@
-import component from 'components/console';
+let es6Function = (string) => string;
 
-component();
+console.log(es6Function('it works'));

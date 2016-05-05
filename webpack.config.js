@@ -1,5 +1,3 @@
-var path = require('path');
-
 module.exports = {
   entry: 'main.js',
   output: {
@@ -7,7 +5,7 @@ module.exports = {
     filename: 'app.js'
   },
   resolve: {
-    "root": __dirname+'/src',
+    "root": __dirname + '/src',
     modulesDirectories: ["node_modules"]
   },
   module: {
@@ -18,5 +16,5 @@ module.exports = {
       }
     ]
   },
-  exclude: path.resolve(__dirname, "node_modules")
+  exclude:  __dirname + "node_modules"
 };
