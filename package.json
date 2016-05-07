@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Webpack ES6 to ES6 boilerplate project initialized in elektron",
   "scripts": {
-    "start": "electron server.js",
+    "start": "electron container.js",
     "build": "webpack --optimize-minimize",
     "dev": "webpack --display-error-details"
   },
